@@ -133,12 +133,22 @@ body{
     background-color: #636262;
 }
 
+.btn:active{
+
+    background-color: #636262;
+}
+
 .color-yellow{
 
     background-color: #FF9F1C;
 }
 
 .color-yellow:hover{
+
+    background-color: #FFB44B;
+}
+
+.color-yellow:active{
 
     background-color: #FFB44B;
 }
