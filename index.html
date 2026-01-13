@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="calc">
+
+        <div id="display">
+
+            <div class="screen">
+
+
+                <span class="screen1"></span>
+
+      
+            </div>
+
+        </div>
+
+        <div class="buttons-box">
+
+            <div class="row">
+
+
+                <button onclick="takeInput('+')" class="btn color-yellow">+</button>
+                <button onclick="takeInput('7')" class="btn">7</button>
+                <button onclick="takeInput('8')" class="btn">8</button>
+                <button onclick="takeInput('9')" class="btn">9</button>
+
+            </div>
+
+
+            <div class="row">
+
+                <button onclick="takeInput('-')" class="btn color-yellow">-</button>
+                <button onclick="takeInput('4')" class="btn">4</button>
+                <button onclick="takeInput('5')" class="btn">5</button>
+                <button onclick="takeInput('6')" class="btn">6</button>
+
+            </div>
+
+            <div class="row">
+                <button onclick="takeInput('*')" class="btn color-yellow">*</button>
+                <button onclick="takeInput('1')" class="btn">1</button>
+                <button onclick="takeInput('2')" class="btn">2</button>
+                <button onclick="takeInput('3')" class="btn">3</button>
+
+            </div>
+
+
+            <div class="row">
+
+                <button onclick="takeInput('/')" class="btn color-yellow">/</button>
+                <button onclick="takeInput('0')" class="btn">0</button>
+                <button onclick="takeInput('.')" class="btn">.</button>
+                <button onclick="takeInput('=')" class="btn">=</button>
+
+
+            </div>
+
+            <div class="row">
+
+                <button onclick="takeInput('%')" class="btn color-yellow">%</button>
+                <button onclick="takeInput('C')" class="btn color-yellow">C</button>
+
+
+                <!-- these buttons are hidden  -->
+                <button onclick="takeInput('<-')" class="btn color-yellow" >
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+
+
+                <button class="btn empty"></button>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
