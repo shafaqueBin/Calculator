@@ -33,6 +33,7 @@ function adjustFont() {
         screen1.style.fontSize = size0fFont * rootPx + "px";
         screen1.innerText = "Out of Bound";
         screen1.style.fontSize = firstFont_size * rootPx + "px";
+        size0fFont = firstFont_size;
 
 
         exp = '';
